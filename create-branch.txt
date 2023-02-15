@@ -1,0 +1,10 @@
+Create new branch:
+
+$ git branch -c <branchName>
+
+$ git switch -c <branchName>
+
+$ git checkout -b <branchName>
+
+Команды создают ветку с файлами из той ветки, откуда вводили предыдущую команду
+Чем отличаются команды пока не понял
