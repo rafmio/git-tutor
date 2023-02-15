@@ -1,0 +1,13 @@
+Remove branch
+
+Remove local branch:
+$ git branch -d <branchName>
+
+-d flag is an alias for --delete
+
+
+Remove remote branch:
+Switch to another branch
+$ git push origin -D <branchName>
+
+-D flag is an alias for --delete --force
