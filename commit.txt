@@ -1,0 +1,3 @@
+Commit
+
+$ git commit -m "One more commit"
