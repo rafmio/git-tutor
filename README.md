@@ -5,8 +5,9 @@ VCS - Version Control System
 
 Learn Git actions (commands):
 commit
+
 push
-$ git push
+git push --set-upstream
 
 pull
 merge
@@ -14,7 +15,6 @@ branch
 rebase
 restore
 cherry-pick
-
 Clone repo:
 $ git clone git@github.com:rafmio/Go.git
 
