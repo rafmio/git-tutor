@@ -8,6 +8,7 @@ commit
 
 push
 git push --set-upstream
+git push origin HEAD
 
 pull
 merge
