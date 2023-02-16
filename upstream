@@ -1,0 +1,11 @@
+https://git-scm.com/docs/gitglossary
+
+upstream
+
+The default branch that is merged into the branch in question (or the branch
+in question is rebased onto).
+It is configured via
+    a) branch.<name>.remote
+    b) branch.<name>.merge
+
+If the upstream branch of A is origin/B sometimes we say "A is tracking origin/B"

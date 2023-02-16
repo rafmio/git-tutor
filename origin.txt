@@ -1,0 +1,39 @@
+Origin
+
+origin - имя по умолчанию, которое Git дает серверу, с которого
+производилось клонирование. Он используется вместо URL - адреса
+исходного репозитория-и тем самым значительно упрощает ссылки
+
+$ git clone https://github.com/reposuper/supergepo
+$ cd repoDir
+
+# Чтобы посмотреть адреса для чтения и записи, привязанные к репе:
+$ git remote -v
+  Output:
+    origin https://github.com/reposuper/supergepo (fetch)
+    origin https://github.com/reposuper/supergepo (push)
+
+
+https://git-scm.com/docs/gitglossary :
+Origin - default upstream repository. Most projects have at least
+one upstream project which they track. By default origin is used for
+that purpose.
+New upstream will be fetched into remote-tracking branches named
+origin/name-of-upstream-branch
+
+https://git-scm.com/book/ru/v2/Ветвление-в-Git-Удалённые-ветки
+«origin» — это не специальное название
+    Подобно названию ветки «master», «origin» не имеет какого-либо специального
+значения в Git.
+    В то время как «master» — это название по умолчанию для ветки
+при выполнении git init только потому, что часто используется, «origin» — это
+название по умолчанию для удалённого сервера, когда вы запускаете git clone.
+Если вы выполните git clone -o booyah, то по умолчанию ветка слежения будет
+иметь вид booyah/master.
+
+Если в удаленный репозиторий кто-то раньше нас загрузил изменения и дополнения:
+git fetch <remote>:
+$ git fetch origin
+Эта команда определяет какому серверу соответствует "origin", извлекает оттуда
+данные, которых у нас еще нет, и обновлеяет локальную базу данных, сдвигая
+указатель origin/master на новую позицию
