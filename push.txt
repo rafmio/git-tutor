@@ -1,0 +1,8 @@
+PUSH
+
+Чтобы связать локальный и удаленный репозитории:
+$ git remote add <repository_name> link
+
+
+git push --set-upstream
+git push origin HEAD
