@@ -8,6 +8,7 @@ commit
 
 push
 pull
+fetch
 merge
 branch
 rebase
