@@ -13,8 +13,10 @@ merge
 branch
 rebase
 restore
+HEAD
 cherry-pick
 create ci cd pipeline using GitHub Actions
+
 
 Clone repo:
 $ git clone git@github.com:rafmio/Go.git

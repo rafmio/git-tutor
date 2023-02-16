@@ -1,0 +1,33 @@
+https://github.com/Max-Starling/Notes/blob/master/Git.md
+HEAD и верхушка ветки
+Т.е. коммит знает своего родителя, а тот - своего, по последнему коммиту можно
+восстановить всю цепочку коммитов любой ветки. Это значит, что ветка может быть
+представлена указателем на последний коммит, сделанный в этой ветке.
+
+Это позволяет Git хранить ветку не как последовательность коммитов, а как ссылку
+на последний ее коммит.
+
+Верхушка ветки (Branch tip, Branch head) - последний коммит ветки. У каждой ветки
+есть одна верхушка.
+
+HEAD - указатель на текущую ветку (указатель на последний коммит текущей ветки).
+HEAD может быть только один в текущий момент времени для всего проекта.
+
+Когда мы создаем новую ветку, её базовым коммитом становится тот, на который
+ссылается HEAD/
+
+https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefHEADaHEAD
+
+HEAD
+The current branch.
+In more details: your working tree is normally derived from the state of the
+tree referred to by HEAD.
+HEAD is a reference to one of the heads in your repository, except when using a
+detached HEAD, in which case it directly references an arbitrary commit
+
+head
+A named reference to the commit at the tip of a branch
+
+ref
+A name that begins with refs/ (e.g. refs/heads/master) that point to an object
+name or another ref (the latter is called a symbolic ref).
