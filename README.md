@@ -6,20 +6,18 @@ VCS - Version Control System
 Learn Git actions (commands):
 commit
 
-push
-pull
-fetch
-merge
-branch
-rebase
-restore
-HEAD
-cherry-pick
-create ci cd pipeline using GitHub Actions
+? - fetch
+? - rebase
+? - cherry-pick
+? - create ci cd pipeline using GitHub Actions
 
+v - push
+v - pull
+v - merge
+v - branch
+v - restore
+v - HEAD
 
-Clone repo:
-$ git clone git@github.com:rafmio/Go.git
 Git logs:
 $ git log
 
