@@ -23,9 +23,12 @@ $ cat .git/HEAD
 $ git checkout develop
 $ cat .git/HEAD
   Output:
-  
+  ref: refs/heads/develop
 
 https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefHEADaHEAD
+
+Файлы с heads хранятся в .git/refs/heads
+Кадждый файл == название ветки. Внутри файла - хэш последнего коммита
 
 HEAD
 The current branch.
